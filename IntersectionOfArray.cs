@@ -24,6 +24,17 @@
 // Online C# Editor for free
 // Write, Edit and Run your C# code using C# Online Compiler
 
+
+// Interviewer: Which is better for finding the intersection of two arrays — HashSet or Dictionary? Why?
+
+// Best Approachs:
+// “For finding the intersection where I just need to know the unique elements present in both arrays, I prefer using a HashSet because it offers fast O(1) average-time membership checks and inherently stores unique values. This keeps the code simple and efficient.
+
+// However, if the problem requires tracking the frequency of elements — like how many times each number appears — then a Dictionary is more suitable, as it allows storing key-value pairs, where keys are elements and values are their counts.
+
+// So, HashSet is best for uniqueness and membership, and Dictionary is best for frequency counting. Both have O(1) average lookup time, so I pick based on the problem’s need.”
+
+
 using System;
 using System.Collections.Generic;
 
