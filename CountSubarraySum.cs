@@ -10,6 +10,11 @@
 // - If (prefixSum - k) exists in the map, it means a subarray with sum k ends here.
 // - Base case: map[0] = 1 to handle subarrays starting from index 0.
 
+
+//Trick
+//“Positive numbers → Sliding window
+//Negative allowed  → Prefix sum + HashMap”
+
 // Example:
 // Input:  nums = [1, 1, 1], k = 2
 // Output: 2
